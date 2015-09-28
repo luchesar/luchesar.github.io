@@ -10,18 +10,17 @@
       <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 
       <link rel="stylesheet" href="css/main.css">
-      <link rel="stylesheet" href="css/styles.css/angular-material.css">
-      <link rel="stylesheet" href="css/styles.css/">
+      <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+    <div class="banner">
+      <div class="container">
+          <div ui-view="banner"></div>
+      </div>
+    </div>
+
     <div id="wrap">
       <div id="main" class="container">
-        <div class="row banner">
-           <div class="col-md-12">
-              <div ui-view="banner"></div>
-           </div>
-        </div>
-
         <div ui-view="content"></div>
       </div>
     </div>
