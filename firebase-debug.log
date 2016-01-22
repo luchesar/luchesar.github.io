@@ -1,0 +1,17 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      node /Users/luchesar.cekov/.nvm/v0.10.40/bin/firebase deploy
+[debug] Platform:     darwin
+[debug] Node Version: v0.10.40
+[debug] Time:         Fri Jan 22 2016 18:48:24 GMT+0000 (GMT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/firebase/emibg/token?token=XXX 
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/firebase/emibg/token?token=XXX 
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'emibg'...
+[info] 
+[info] i  deploying hosting
+[info] i  preparing build directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/firebase/emibg/uploads/-K8eeZli5mWCs6XBNIUo?token=XXX&fileCount=59&message= 
